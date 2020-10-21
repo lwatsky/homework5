@@ -51,10 +51,6 @@ footer{
 }
 
 /*Begin your code here*/
-/*.flexbox-container{
-  display: flex;
-}*/
-
 /*Keyframes for animation*/
 
 @-webkit-keyframes logo_wiggle{
@@ -227,8 +223,8 @@ header{
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
-@media (prefers-reduced-motion) {
+/*@media (prefers-reduced-motion: reduce) {
   #logo{
     animation: none;
   }
-}
+}*/
