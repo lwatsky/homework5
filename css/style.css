@@ -169,15 +169,18 @@ header{
   /*Your  code here again.*/
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
+  flex-direction: column;
 
 }
 
 .nav_links{
   /*Your code here again.*/
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .nav_item a{
@@ -209,12 +212,15 @@ header{
   header{
     /*Your code here again.*/  
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
   }
 
   .nav_links{
     /*Your code here again.*/  
     display: flex;
+    flex-direction: row;
 
   }
 
@@ -236,6 +242,9 @@ header{
   }
   #gallery{
     display: none;
+  }
+  .pricing{
+    align-items: flex-start;
   }
   /*Your code here again.*/
   /*You will want four selectors*/  
