@@ -149,6 +149,11 @@ footer{
 .gallery{
   min-height: 600px;
   /*Your code here again.*/
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .gallery > img{
@@ -165,6 +170,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 
 }
 
@@ -202,10 +208,14 @@ header{
   /* Navbar */
   header{
     /*Your code here again.*/  
+    display: flex;
+
   }
 
   .nav_links{
     /*Your code here again.*/  
+    display: flex;
+
   }
 
   .nav_item a{
@@ -217,14 +227,25 @@ header{
   .card {
     flex-basis: 200px;
   }
+  body{
+    background-image: none;
+    align-items: baseline;
+  }
+  .gallery{
+    display: none;
+  }
+  #gallery{
+    display: none;
+  }
   /*Your code here again.*/
   /*You will want four selectors*/  
 }
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
-/*@media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion:reduce) {
   #logo{
+    -webkit-animation: none; 
     animation: none;
   }
-}*/
+}
